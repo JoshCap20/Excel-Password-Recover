@@ -19,6 +19,7 @@ class Cracker:
         if wordlist == "default":
             self.__passwords = MY_WORDLIST
         else:
+            self.__wordlist = wordlist
             self.read_password_list()
         while (self.__wordlist_pointer < self.__wordlist_length):
            password_guess = self.get_password()
