@@ -26,10 +26,8 @@ class Cracker:
                 print(f"Trying {password_guess}...")
            guess = self.decrypt(str(password_guess))
            if (guess):
-                print(f"CRACKED: {password_guess}")
-                self.read_decrypted_file(password_guess)
+                self.success(password_guess)
                 return
-
         self.end()
 
     def decrypt(self, password) -> bool:
@@ -73,10 +71,12 @@ class Cracker:
     def end(self) -> None:
         print(f"No password found :(")
 
-    def success(self) -> None:
+    def success(self, password) -> None:
+        print(f"CRACKED: {password}")
+        self.read_decrypted_file(password)
         print("Good luck on your interview!")
 
 
-if __name__ == "__main__":
-    newCracker = Cracker()
+# if __name__ == "__main__":
+#     newCracker = Cracker()
 
