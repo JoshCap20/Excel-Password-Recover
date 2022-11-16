@@ -6,9 +6,14 @@
 
 ## Usage
 
-```
-C:\test> python main.py --file FILENAME --wordlist WORDLIST -v
+### Run as Bash
+> bash run.sh
 
+### Run as Python Module
+
+> python main.py --file FILENAME --wordlist WORDLIST -v
+
+```
 ARGUMENTS:
    --file, -f               excel file to crack (.xlsx) (required)
 
