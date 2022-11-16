@@ -1,6 +1,6 @@
 # Excel-Password-Recover
 
-`Excel-Password-Recover` is an open-source tool that could help you recover lost passwords for your excel spreadsheets.
+`Excel-Password-Recover` is an open-source tool that could help you recover lost passwords for your excel spreadsheets. This works for macOS, but support for Windows is iffy.
 
 > Disclaimer: This tool is limited to security research only, and the user assumes all legal and related responsibilities arising from its use! The author assumes no legal responsibility!
 
