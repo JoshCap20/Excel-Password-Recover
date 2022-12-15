@@ -4,6 +4,8 @@
 
 > Disclaimer: This tool is limited to security research only, and the user assumes all legal and related responsibilities arising from its use! The author assumes no legal responsibility!
 
+> Note: This project is unmaintained as it is far more efficient to crack the hash itself via a rainbow table rather than brute force. I realized this after I made this and quickly switched methods.
+
 ## Usage
 
 ### Run as Bash
